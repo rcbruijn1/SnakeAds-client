@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/snake-ads-client/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/snake-ads-client/static/js/main.e11cdb7f.chunk.js",
-    "main.js.map": "/snake-ads-client/static/js/main.e11cdb7f.chunk.js.map",
-    "runtime-main.js": "/snake-ads-client/static/js/runtime-main.dae03954.js",
-    "runtime-main.js.map": "/snake-ads-client/static/js/runtime-main.dae03954.js.map",
-    "static/js/2.9c946902.chunk.js": "/snake-ads-client/static/js/2.9c946902.chunk.js",
-    "static/js/2.9c946902.chunk.js.map": "/snake-ads-client/static/js/2.9c946902.chunk.js.map",
-    "index.html": "/snake-ads-client/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/snake-ads-client/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.9c946902.chunk.js.LICENSE.txt": "/snake-ads-client/static/js/2.9c946902.chunk.js.LICENSE.txt"
+    "main.css": "/SnakeAds-client/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/SnakeAds-client/static/js/main.e11cdb7f.chunk.js",
+    "main.js.map": "/SnakeAds-client/static/js/main.e11cdb7f.chunk.js.map",
+    "runtime-main.js": "/SnakeAds-client/static/js/runtime-main.a40ddd0f.js",
+    "runtime-main.js.map": "/SnakeAds-client/static/js/runtime-main.a40ddd0f.js.map",
+    "static/js/2.9c946902.chunk.js": "/SnakeAds-client/static/js/2.9c946902.chunk.js",
+    "static/js/2.9c946902.chunk.js.map": "/SnakeAds-client/static/js/2.9c946902.chunk.js.map",
+    "index.html": "/SnakeAds-client/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/SnakeAds-client/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9c946902.chunk.js.LICENSE.txt": "/SnakeAds-client/static/js/2.9c946902.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dae03954.js",
+    "static/js/runtime-main.a40ddd0f.js",
     "static/js/2.9c946902.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.e11cdb7f.chunk.js"

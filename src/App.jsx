@@ -10,7 +10,7 @@ import AdGrid from './AdGrid';
 import { useAppStyles } from './App.style';
 
 // Assets
-import { exampleAds } from './ads';
+import { snakeAds } from './ads';
 
 const App = () => {
   const classes = useAppStyles();
@@ -54,7 +54,7 @@ const App = () => {
             </Box>
           </Toolbar>
         </AppBar>
-        <AdGrid handleCallback={handleClickUpdate} ads={exampleAds} />
+        <AdGrid handleCallback={handleClickUpdate} ads={snakeAds} />
       </Box>
 
       <Dialog open={open} maxWidth={false}>

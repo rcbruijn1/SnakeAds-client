@@ -21,6 +21,8 @@ const AdGrid = ({ ads, handleCallback }) => {
         const date = new Date()
         const assetId = getRandomId();
 
+        const targetUrl = Math.floor(Math.random() * ad.snakeApiEndpoints.length);
+
         axios.post('http://localhost:3000/createAsset', 
           {
             id: assetId.split("."),
@@ -30,7 +32,7 @@ const AdGrid = ({ ads, handleCallback }) => {
           })
           .then(function (response) {
               handleCallback(response);
-              console.log(response);
+              console.log(`Succesfuly saved on: ${ad.snakeApiEndpoints[targetUrl]}`, response);
           })
           .catch(function (error) {
             console.log(error);

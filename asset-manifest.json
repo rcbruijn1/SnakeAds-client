@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SnakeAds-client/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/SnakeAds-client/static/js/main.032e688f.chunk.js",
-    "main.js.map": "/SnakeAds-client/static/js/main.032e688f.chunk.js.map",
+    "main.js": "/SnakeAds-client/static/js/main.eed71a55.chunk.js",
+    "main.js.map": "/SnakeAds-client/static/js/main.eed71a55.chunk.js.map",
     "runtime-main.js": "/SnakeAds-client/static/js/runtime-main.a40ddd0f.js",
     "runtime-main.js.map": "/SnakeAds-client/static/js/runtime-main.a40ddd0f.js.map",
     "static/js/2.9c946902.chunk.js": "/SnakeAds-client/static/js/2.9c946902.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a40ddd0f.js",
     "static/js/2.9c946902.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.032e688f.chunk.js"
+    "static/js/main.eed71a55.chunk.js"
   ]
 }

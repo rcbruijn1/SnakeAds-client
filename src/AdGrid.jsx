@@ -22,12 +22,11 @@ const AdGrid = ({ ads, handleCallback }) => {
         const assetId = getRandomId();
 
         const targetUrl = Math.floor(Math.random() * ad.snakeApiEndpoints.length);
-
         axios.post('http://localhost:3000/createAsset', 
           {
             id: assetId.split("."),
             advertisementId: ad.advertisementId,
-            publisherId: '12345',
+            publisherId: ad.publisherId,
             timeStamp: date.toISOString(),
           })
           .then(function (response) {

@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { ThemeProvider } from '@material-ui/core';
+import { createTheme } from './theme/theme.index';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ThemeProvider theme={createTheme('defaultTheme')}>
     <App />
-  </React.StrictMode>,
+  </ThemeProvider>,
   document.getElementById('root')
 );

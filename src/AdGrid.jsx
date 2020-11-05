@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import axios from 'axios';
+import clsx from 'clsx';
 
 // Core
-import { Box, Grid, CardActionArea } from '@material-ui/core';
+import { Grid, CardActionArea, Card, Typography } from '@material-ui/core';
 
 // Style
 import { useAppStyles } from './App.style';
@@ -22,11 +23,13 @@ const AdGrid = ({ ads, handleCallback }) => {
         const assetId = getRandomId();
 
         const targetUrl = Math.floor(Math.random() * ad.snakeApiEndpoints.length);
-        axios.post('http://localhost:3000/createAsset', 
+        console.log(ad.snakeApiEndpoints[targetUrl]);
+        axios.post(`${ad.snakeApiEndpoints[targetUrl]}/createAsset`,
           {
             id: assetId.split("."),
             advertisementId: ad.advertisementId,
             publisherId: ad.publisherId,
+            advertiserId: ad.advertiserId,
             timeStamp: date.toISOString(),
           })
           .then(function (response) {
@@ -39,17 +42,24 @@ const AdGrid = ({ ads, handleCallback }) => {
     };
 
     return (
-        <Box m={3}>
+        <div className={clsx(classes.gridContainer, classes.scrollbar )}>
             <Grid container justify="center" spacing={3} className={classes.adGrid}>
                 {ads.map(ad => (
-                    <Grid item xs={3} align="center">
-                        <CardActionArea onClick={() => handleClick(ad)} className={classes.cardActionArea}>
-                            <img src={ad.img} width="200" height="auto" />
-                        </CardActionArea>
+                    <Grid item xs={6} align="center" key={ad.advertisementId}>
+                        <Card className={classes.adCard}>
+                            <CardActionArea onClick={() => handleClick(ad)} className={classes.cardActionArea}>
+                                <div className={classes.overlay}>
+                                    <Typography color="secondary" variant="body2">
+                                        {ad.advertiserId}
+                                    </Typography>
+                                </div>
+                                <img src={ad.img} width="400" height="auto" />
+                            </CardActionArea>
+                        </Card>
                     </Grid>
                 ))}
             </Grid>
-        </Box>
+        </div>
     );
 };
 

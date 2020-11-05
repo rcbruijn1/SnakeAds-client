@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/SnakeAds-client/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/SnakeAds-client/static/js/main.eed71a55.chunk.js",
-    "main.js.map": "/SnakeAds-client/static/js/main.eed71a55.chunk.js.map",
+    "main.js": "/SnakeAds-client/static/js/main.f509cd5a.chunk.js",
+    "main.js.map": "/SnakeAds-client/static/js/main.f509cd5a.chunk.js.map",
     "runtime-main.js": "/SnakeAds-client/static/js/runtime-main.a40ddd0f.js",
     "runtime-main.js.map": "/SnakeAds-client/static/js/runtime-main.a40ddd0f.js.map",
-    "static/js/2.9c946902.chunk.js": "/SnakeAds-client/static/js/2.9c946902.chunk.js",
-    "static/js/2.9c946902.chunk.js.map": "/SnakeAds-client/static/js/2.9c946902.chunk.js.map",
+    "static/js/2.01866605.chunk.js": "/SnakeAds-client/static/js/2.01866605.chunk.js",
+    "static/js/2.01866605.chunk.js.map": "/SnakeAds-client/static/js/2.01866605.chunk.js.map",
     "index.html": "/SnakeAds-client/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/SnakeAds-client/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.9c946902.chunk.js.LICENSE.txt": "/SnakeAds-client/static/js/2.9c946902.chunk.js.LICENSE.txt"
+    "static/js/2.01866605.chunk.js.LICENSE.txt": "/SnakeAds-client/static/js/2.01866605.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a40ddd0f.js",
-    "static/js/2.9c946902.chunk.js",
+    "static/js/2.01866605.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.eed71a55.chunk.js"
+    "static/js/main.f509cd5a.chunk.js"
   ]
 }

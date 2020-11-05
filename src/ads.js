@@ -5,9 +5,9 @@ export const snakeAds = [
       publisherId: 'pub1_10/2020',
       advertiserId: 'adver1_10/2020/Coolblue',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -16,9 +16,9 @@ export const snakeAds = [
       publisherId: 'pub1_10/2020',
       advertiserId: 'adver1_10/2020/Coolblue',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -27,9 +27,9 @@ export const snakeAds = [
       publisherId: 'pub1_10/2020',
       advertiserId: 'adver1_10/2020/Coolblue',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -38,9 +38,9 @@ export const snakeAds = [
       publisherId: 'pub1_10/2020',
       advertiserId: 'adver1_10/2020/Coolblue',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -49,9 +49,9 @@ export const snakeAds = [
       publisherId: 'pub2_10/2020',
       advertiserId: 'adver2_10/2020/Tweakers',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -60,9 +60,9 @@ export const snakeAds = [
       publisherId: 'pub2_10/2020',
       advertiserId: 'adver2_10/2020/Tweakers',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -71,9 +71,9 @@ export const snakeAds = [
       publisherId: 'pub2_10/2020',
       advertiserId: 'adver2_10/2020/Tweakers',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -82,9 +82,9 @@ export const snakeAds = [
       publisherId: 'pub2_10/2020',
       advertiserId: 'adver2_10/2020/Tweakers',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -93,9 +93,9 @@ export const snakeAds = [
       publisherId: 'pub3_10/2020',
       advertiserId: 'adver3_10/2020/Daisycon',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -104,9 +104,9 @@ export const snakeAds = [
       publisherId: 'pub3_10/2020',
       advertiserId: 'adver3_10/2020/Daisycon',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -115,9 +115,9 @@ export const snakeAds = [
       publisherId: 'pub3_10/2020',
       advertiserId: 'adver3_10/2020/Daisycon',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
     {
@@ -126,9 +126,9 @@ export const snakeAds = [
       publisherId: 'pub3_10/2020',
       advertiserId: 'adver3_10/2020/Daisycon',
       snakeApiEndpoints: [
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
-        'http://snake-blockchain.westeurope.cloudapp.azure.com:3000',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
+        'https://proxy.server7.omega2.nl',
       ],
     },
   ];

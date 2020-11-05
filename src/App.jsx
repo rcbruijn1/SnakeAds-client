@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import axios from 'axios';
 
 // Core
-import { AppBar, Box, Button, Dialog, DialogActions, DialogContent, Toolbar, Typography, Snackbar } from '@material-ui/core';
+import { AppBar, Box, Toolbar, Typography, Snackbar } from '@material-ui/core';
 import { Alert } from '@material-ui/lab';
 import AdGrid from './AdGrid';
 
@@ -20,7 +20,7 @@ const App = () => {
   const [snackbar, setSnackbar] = useState(false);
   
   const handleClickUpdate = response => {
-    axios.get('http://snake-blockchain.westeurope.cloudapp.azure.com:3000')
+    axios.get('https://proxy.server7.omega2.nl/')
     .then(res => {
       const assets = res.data;
       setClicks(assets.length);
